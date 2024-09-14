@@ -19,3 +19,5 @@ def clean(filepath):
 
     loaded_file.to_csv('clean_data.csv' , index = False)
 
+    return loaded_file
+
